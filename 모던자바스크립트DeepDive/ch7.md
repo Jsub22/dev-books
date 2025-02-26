@@ -159,7 +159,13 @@
 
 - 2개의 피연산자 중 어느 한쪽으로 평가됨, 평가 결과가 불리언이 아닐 수 있음
 
-  - ex. 'Cat' && 'Dog' -> 'Dog'
+  - ex. 'Cat' && 'Dog' -> 'Dog' (true)
+	
+	- ex. false && 'Dog' -> false (false)
+	
+	- ex. 'Cat' || 'Dog' -> 'Cat' {true)
+	
+	- ex. false || 'Dog' -> 'Dog' (false)
 
 ---
 
